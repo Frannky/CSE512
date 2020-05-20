@@ -1,0 +1,11 @@
+The parameters of this program has three options:
+python knn.py --dataset /path/to/data/filename.csv --k-val 2 --split 0.8
+
+1. dataset path
+This value could be set by the user and it must be a path to read the data file.
+2. k value
+This is the k value defined as the number of nearest neighbors which can be set by the user and must be an integer.
+This value cannot be less than 1.
+3. split value
+This number is the percentage of training data of all the data points in the dataset and this value is a float.
+The default of this value is 0.8 and this value cannot exceed 1.

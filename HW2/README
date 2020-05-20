@@ -1,0 +1,10 @@
+When we set the number of iterations to be 1000000 and lambda to be 0.2. We get the result of
+w: [0.04945827 0.1110764  0.25283874].
+Using this value to test the remaining twenty data points and there is no data point has been misclassified.
+
+The parameters of this program has two options:
+--max_iterations 10000 --lambda1 0.02
+1. maximum number of iterations
+This value could be set by the user and it must be an integer. The default value of maximum number of iterations is 10000.
+2. lambda
+This is the lambda value from the loss function which can be set by the user and must be float. The default value is 0.2.
